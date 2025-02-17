@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f9;
+
+}
+
+.lab_list {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 20px 40px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.lab_list a:hover {
+    transition: background-color 0.5s ease, color 0.5s ease;
+    background-color: #5b5959;
+    border-radius: 3px;
+    padding: 3px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.lab_item {
+    padding: 3px;
+    margin: 10px 0;
+    text-decoration: none;
+    color: #6c7e7c;
+}
